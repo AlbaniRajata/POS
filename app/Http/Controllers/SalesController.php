@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class SalesController extends Controller
 {
     public function penjualan(){
-        return view('blog.penjualan')
+        return view('blog.sales')
         ->with('penjualan','Toko Albani Rajata Malik');
     }
     
